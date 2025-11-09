@@ -1,5 +1,6 @@
 {
   "github.copilot.enable": {
     "*": false
-  }
+  },
+  "livePreview.defaultPreviewPath": "/05.CSSSyntax/LoveLetter/index.html"
 }
