@@ -2,17 +2,24 @@
  *
  * Common styles
  *
- * @author !put your name here!
+ * @author Mohamad Harud <mohamad.harud@student.odisee.be>
  *
  */
 
 /* ===========================================
    General
    =========================================== */
+html {
+   background-color: #dfdfdf;
+}
 
-/* html, body and general element styles here */
-/* ... */
-
+body {
+   background-color: white;
+   font-family: Roboto, sans-serif;
+   font-size: 13px;
+   line-height: 1.8;
+   border-radius: 15px 15px 0 0;
+}
 
 /* ===========================================
    Menu
@@ -20,16 +27,56 @@
 
 /* menu styles here */
 /* ... */
+header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
 
+nav ul {
+   display: flex;
+   font-size: 0.8em;
+   width: 350px;
+   justify-content: space-evenly;
+   align-items: center;
+   list-style: none;
+}
+
+nav a {
+   text-decoration: none;
+   color: #636161;
+   padding: 0.4rem 0.8rem;
+   border-radius: 2px;
+   transition: background-color 0.2s ease;
+}
+
+nav a:hover {
+   background-color: #B52025;
+   color: white;
+}
+
+.active {
+   background-color: #B52025;
+   color: white;
+}
 
 
 /* ===========================================
    Banner
    =========================================== */
 
+
 /* banner styles here */
 /* ... */
+#banner {
+   background-image: url(../img/banner.jpg);
+   border: 5px solid #B52025;
+}
 
+#banner p {
+   background-color: #000000a1;
+   color: white;
+}
 
 
 /* ===========================================
@@ -38,6 +85,58 @@
 
 /* main styles here */
 /* ... */
+h3 {
+   color: #B52025;
+   font-size: 1.5em;
+   text-transform: uppercase;
+}
+
+h3::after {
+   content: " →";
+}
+
+.minibanner {
+   border: 1px solid #dfdfdf;
+   border-radius: 2px;
+}
+
+.more {
+   display: flex;
+   flex-direction: row-reverse;
+}
+
+.more a {
+   text-decoration: none;
+   color: #B52025;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border: 1px solid #B52025;
+   border-radius: 5px;
+   width: 60px;
+   height: 30px;
+   transition: background transform 0.3s ease;
+}
+
+.more a::after {
+   content: "\00BB";
+}
+
+.more a:hover {
+   text-decoration: underline;
+   background-color: #f8e4e4;
+}
+
+#email {
+   color: #dfdfdf;
+   background-color: #FDEAEB;
+   border-radius: 3px;
+}
+
+button {
+   color: white;
+   background-color: #B52025;
+}
 
 
 /* ===========================================
@@ -46,3 +145,9 @@
 
 /* footer styles here */
 /* ... */
+footer {
+   background-color: #dfdfdf;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+}

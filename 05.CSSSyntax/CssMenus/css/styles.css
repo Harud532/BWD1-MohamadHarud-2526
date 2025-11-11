@@ -27,13 +27,40 @@ body {
     text-underline-offset: 6px;
 }
 
-.active {
+#menu-hor-green .active {
     text-decoration: underline;
     text-underline-offset: 6px;
 }
 
 /* verticaal menu */
 #menu-social-vert {
+    display: flex;
+    flex-direction: column;
     list-style: none;
-    border: #444;
+    padding: 0;
+    border: 1px solid #dfdddd;
+    border-radius: 3px;
+    width: 53px;
+}
+
+#menu-social-vert li {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #dfdddd;
+}
+
+#menu-social-vert .active {
+    border-top: none;
+}
+
+span {
+    color: #99c63f;
+    font-size: 2em;
+}
+
+span:hover {
+    color: #abdb4c;
 }
