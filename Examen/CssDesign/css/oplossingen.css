@@ -1,0 +1,91 @@
+/*
+ * Jouw oplossing hier
+ *
+ * @author Mohamad Harud <mohamad.harud@student.odisee.be>
+ */
+ nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+ }
+
+ .active a{
+    color: #F03C02;
+ }
+
+ #banner{
+    background-image: url(../img/banner.jpg);
+ }
+
+.btn{
+    background-color: #F03C02;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 8px 16px 8px 16px;
+    font-size: 0.9rem;  
+ }
+ .box{
+    border-bottom:5px solid #F03C02;
+ }
+
+ .btn-largeround{
+border-radius: 25px;
+ }
+
+.tagline{
+    color: #969696;
+}
+
+ h2{
+    color: #969696;
+ }
+ .section-title strong{
+    color: #717171;
+ }
+
+ .service.service-1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;µ
+ }
+
+.fas.fa-briefcase::before{
+   padding: 10px 5px 10px 15px;
+}
+
+.fas.fa-desktop::before{
+   padding: 11px 8px 9px 12px; 
+}
+
+.fas.fa-flask::before{
+    padding: 10px 3px 10px 17px;
+}
+
+.fas.fa-coffee::before{
+    padding: 10px 8px 10px 12px;
+}
+
+ .service.service-2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+ }
+
+ .service.service-3{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+ }
+
+ .service.service-4{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+ }
+
+ figcaption::before{
+  content: "» ";
+ }
+
+ .partners img{
+    border: 3px solid #e0e0e0;
+ }
